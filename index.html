@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventes Immobilières</title>
+    <!-- Inclure Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center">
+        <a href="#" class="text-2xl font-bold">Ventes Immobilières</a>
+        <ul class="flex space-x-4">
+            <li><a href="#" class="hover:text-gray-300">Accueil</a></li>
+            <li><a href="#" class="hover:text-gray-300">Liste des propriétés</a></li>
+            <li><a href="#" class="hover:text-gray-300">AssistanceJuridique</a></li>
+            <li><a href="#" class="hover:text-gray-300">À propos</a></li>
+            <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Accueil -->
+<section class="swiper-container h-500px flex items-center justify-center text-center">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image: url('https://via.placeholder.com/1200x600');">
+            <div class="container mx-auto">
+                <h1 class="text-4xl font-bold text-white mb-4">Bienvenue sur notre site de ventes immobilières</h1>
+                <p class="text-xl text-white mb-6">Découvrez nos dernières propriétés disponibles à la vente. Trouvez la maison ou le terrain de vos rêves dès aujourd'hui.</p>
+                <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Voir nos propriétés</a>
+            </div>
+        </div>
+        <!-- Ajoutez d'autres slides au besoin -->
+    </div>
+    <!-- Pagination -->
+    <div class="swiper-pagination"></div>
+</section>
+
+
+
+
+<section class="py-12">
+    <div class="container mx-auto">
+        <h1 class="text-3xl font-bold mb-4">Propriétés en vedette</h1>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://via.placeholder.com/600x400" alt="Propriété 1" class="w-full h-64 object-cover object-center">
+                <div class="p-6">
+                    <h2 class="text-xl font-bold mb-2">Maison de campagne avec vue panoramique</h2>
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget ipsum non velit ultrices faucibus.</p>
+                    <a href="#" class="text-blue-500 hover:underline">Voir plus</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://via.placeholder.com/600x400" alt="Propriété 2" class="w-full h-64 object-cover object-center">
+                <div class="p-6">
+                    <h2 class="text-xl font-bold mb-2">Terrain idéal pour la construction</h2>
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget ipsum non velit ultrices faucibus.</p>
+                    <a href="#" class="text-blue-500 hover:underline">Voir plus</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://via.placeholder.com/600x400" alt="Propriété 3" class="w-full h-64 object-cover object-center">
+                <div class="p-6">
+                    <h2 class="text-xl font-bold mb-2">Appartement en centre-ville</h2>
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget ipsum non velit ultrices faucibus.</p>
+                    <a href="#" class="text-blue-500 hover:underline">Voir plus</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="py-12 bg-gray-200">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-4">Nos clients satisfaits</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <div class="rounded-full overflow-hidden mx-auto h-24 w-24 mb-4">
+                    <img src="https://via.placeholder.com/150" alt="Client 1" class="w-full h-auto">
+                </div>
+                <p class="text-xl font-semibold mb-2">Client 1</p>
+                <p class="text-gray-600">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas euismod sapien eget est consequat, vitae luctus urna tempus."</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <div class="rounded-full overflow-hidden mx-auto h-24 w-24 mb-4">
+                    <img src="https://via.placeholder.com/150" alt="Client 2" class="w-full h-auto">
+                </div>
+                <p class="text-xl font-semibold mb-2">Client 2</p>
+                <p class="text-gray-600">"Duis eu leo at eros blandit ullamcorper vel ac turpis. Fusce lacinia interdum risus id finibus."</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <div class="rounded-full overflow-hidden mx-auto h-24 w-24 mb-4">
+                    <img src="https://via.placeholder.com/150" alt="Client 3" class="w-full h-auto">
+                </div>
+                <p class="text-xl font-semibold mb-2">Client 3</p>
+                <p class="text-gray-600">"Vestibulum scelerisque fringilla massa vitae fermentum. Nulla facilisi. Integer tristique tellus in eros bibendum, et aliquam turpis pretium."</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="py-12 bg-gray-200">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-4">Nos réalisations</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <img src="https://via.placeholder.com/400x300" alt="Image 1">
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <img src="https://via.placeholder.com/400x300" alt="Image 2">
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <img src="https://via.placeholder.com/400x300" alt="Image 3">
+            </div>
+            <!-- Ajoutez d'autres images au besoin -->
+        </div>
+    </div>
+</section>
+
+<section class="py-12">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-4">Notre équipe</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <div class="rounded-full overflow-hidden mx-auto h-24 w-24 mb-4">
+                    <img src="https://via.placeholder.com/150" alt="John Doe" class="w-full h-auto">
+                </div>
+                <h3 class="text-xl font-semibold mb-2">John Doe</h3>
+                <p class="mb-2">Agent immobilier</p>
+                <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper consequat odio, ac vestibulum lectus ultrices et.</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <div class="rounded-full overflow-hidden mx-auto h-24 w-24 mb-4">
+                    <img src="https://via.placeholder.com/150" alt="Jane Smith" class="w-full h-auto">
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Jane Smith</h3>
+                <p class="mb-2">Agent immobilier</p>
+                <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper consequat odio, ac vestibulum lectus ultrices et.</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <div class="rounded-full overflow-hidden mx-auto h-24 w-24 mb-4">
+                    <img src="https://via.placeholder.com/150" alt="Alice Johnson" class="w-full h-auto">
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Alice Johnson</h3>
+                <p class="mb-2">Agent immobilier</p>
+                <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper consequat odio, ac vestibulum lectus ultrices et.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center">
+        <ul class="flex space-x-4">
+            <li><a href="#" class="hover:text-gray-300">Accueil</a></li>
+            <li><a href="#" class="hover:text-gray-300">Liste des propriétés</a></li>
+            <li><a href="#" class="hover:text-gray-300">À propos</a></li>
+            <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+            <li><a href="#" class="hover:text-gray-300">Juridique</a></li>
+        </ul>
+        <ul class="flex space-x-4">
+            <li><a href="#" class="hover:text-gray-300"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#" class="hover:text-gray-300"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" class="hover:text-gray-300"><i class="fab fa-instagram"></i></a></li>
+            <!-- Ajoutez d'autres liens de réseaux sociaux au besoin -->
+        </ul>
+    </div>
+</footer>
+
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+</script>
+
+</body>
+</html>
